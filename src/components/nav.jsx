@@ -18,31 +18,48 @@ const Nav = () => (
       p: 1,
     }}
   >
-    <h1
-      sx={{
-        ml: 4,
-        fontSize: '4',
-        border: '4px solid',
-        borderRadius: 3,
-        pl: 2,
-        pr: 2,
-      }}
-    >
-      Blogging
-    </h1>
+    <Link href="/">
+      <a
+        sx={{
+          textAlign: 'center',
+          width: '8vw',
+          ml: 4,
+          fontSize: 4,
+          fontWeight: 5,
+          border: '2px solid',
+          borderRadius: 3,
+          ':hover': {
+            fontSize: 5,
+            border: 'none',
+            cursor: 'pointer',
+          },
+        }}
+      >
+        Blogging
+      </a>
+    </Link>
 
     <nav
       sx={{
         display: 'flex',
         justifyContent: 'space-between',
-        fontSize: 4,
+        fontSize: 3,
+        fontWeight: 1,
+        a: {
+          p: 2,
+        },
+        'a:hover': {
+          background: 'highlight',
+          borderRadius: 3,
+          cursor: 'pointer',
+        },
       }}
     >
       <Link href="/blog-posts">
         <a
           sx={{
             textDecoration: 'none',
-            mr: 4,
+            mr: 5,
           }}
         >
           Blog Posts
@@ -56,6 +73,16 @@ const Nav = () => (
           }}
         >
           To Do App
+        </a>
+      </Link>
+      <Link href="/dashboard">
+        <a
+          sx={{
+            mr: 5,
+            textDecoration: 'none',
+          }}
+        >
+          Dashboard
         </a>
       </Link>
     </nav>
