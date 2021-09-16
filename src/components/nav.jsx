@@ -29,9 +29,9 @@ const Nav = () => (
           fontWeight: 5,
           border: '2px solid',
           borderRadius: 3,
+          transition: 'all .2s ease-in-out',
           ':hover': {
-            fontSize: 5,
-            border: 'none',
+            transform: 'scale(1.1)',
             cursor: 'pointer',
           },
         }}

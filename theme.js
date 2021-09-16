@@ -10,7 +10,7 @@ const theme = {
     },
     card: {
       boxShadow:
-        '0 1px 5px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.2)',
+        '0 2px 5px rgb(255,255,255,0.4), 0 1px 5px white',
       border: '1px solid',
       borderColor: 'muted',
       borderRadius: '4px',

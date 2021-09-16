@@ -4,14 +4,17 @@ import { jsx } from '@theme-ui/core';
 import UserInfo from './userInfo';
 import Link from 'next/link';
 import Image from 'next/image';
-
 import searchImg from '../../public/images/search.svg';
 
 const DashboardSidebar = () => (
   <div
     sx={{
+      position: 'absolute',
+      top: '50px',
+      left: 0,
       display: 'flex',
       flexDirection: 'column',
+      borderRight: '1px solid highlight',
       width: '18vw',
       bg: 'muted',
       m: 0,
