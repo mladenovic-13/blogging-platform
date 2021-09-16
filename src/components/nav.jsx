@@ -16,6 +16,7 @@ const Nav = () => (
       borderColor: 'highlight',
       bg: 'primary',
       p: 1,
+      boxShadow: '0 1px 2px rgba(0,0,0,0.3)',
     }}
   >
     <Link href="/">
@@ -23,7 +24,7 @@ const Nav = () => (
         sx={{
           textAlign: 'center',
           width: '8vw',
-          ml: 4,
+          ml: 5,
           fontSize: 4,
           fontWeight: 5,
           border: '2px solid',

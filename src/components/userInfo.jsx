@@ -10,7 +10,8 @@ const UserInfo = () => (
   <div
     sx={{
       textAlign: 'center',
-      mt: '25px',
+      mt: '50px',
+      mb: '30px',
     }}
   >
     <Image
@@ -34,7 +35,31 @@ const UserInfo = () => (
     <p sx={{ mb: 3, mt: 1 }}>
       mladenovic13@gmail.com
     </p>
-    <Button sx={{ mb: 3 }}>Log Out</Button>
+    <div
+      sx={{
+        mb: 3,
+        mt: '30px',
+      }}
+    >
+      <Button
+        sx={{
+          mr: 4,
+          p: 2,
+          ':hover': { bg: 'highlight' },
+        }}
+      >
+        Edit User Info
+      </Button>
+      <Button
+        sx={{
+          p: 2,
+          bg: 'rgb(200,0,0)',
+          ':hover': { bg: 'rgb(100,0,0)' },
+        }}
+      >
+        Log Out
+      </Button>
+    </div>
   </div>
 );
 export default UserInfo;
