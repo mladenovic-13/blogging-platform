@@ -8,6 +8,7 @@ const NewPostCard = () => (
   <div
     sx={{
       variant: 'containers.card',
+      display: 'inline-block',
       width: '200px',
       height: '250px',
       ':hover': {

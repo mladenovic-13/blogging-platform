@@ -3,13 +3,14 @@
 import { jsx } from '@theme-ui/core';
 import DashboardSidebar from '../../src/components/dashboardSidebar';
 import NewPostCard from '../../src/components/newPostCard';
+import LatestPosts from '../../src/components/latestPostrs';
 
 const Dashboard = () => (
   <div
     sx={{
       variant: 'containers.page',
       display: 'flex',
-      flexDirection: 'row',
+      flexFlow: 'row wrap',
     }}
   >
     <DashboardSidebar />
@@ -17,12 +18,10 @@ const Dashboard = () => (
       sx={{
         ml: '25vw',
         mt: '20px',
-        display: 'flex',
-        flexDirection: 'row',
-        alignContent: 'space-around',
+        maxWidth: '75vw',
       }}
     >
-      <NewPostCard />
+      <LatestPosts />
     </div>
   </div>
 );

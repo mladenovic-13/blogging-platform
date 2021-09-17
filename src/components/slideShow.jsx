@@ -7,6 +7,7 @@ import img3 from '../../public/images/content-digital.png';
 
 const SlideShow = ({ width }) => (
   <Carousel
+    showThumbs={false}
     width={width}
     autoPlay={true}
     infiniteLoop={true}

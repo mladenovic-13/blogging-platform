@@ -1,0 +1,48 @@
+let data = [
+  {
+    id: 1,
+    user: 'mladenovic13',
+    date: Date.now(),
+    title: 'Title 1',
+    description: 'Blog post description',
+    text: 'Blog post text.',
+    images: [],
+  },
+  {
+    id: 2,
+    user: 'mladenovic13',
+    date: Date.now(),
+    title: 'Title 2',
+    description: 'Blog post description',
+    text: 'Blog post text.',
+    images: [],
+  },
+  {
+    id: 3,
+    user: 'mladenovic13',
+    date: Date.now(),
+    title: 'Title 3',
+    description: 'Blog post description',
+    text: 'Blog post text.',
+    images: [],
+  },
+  {
+    id: 4,
+    user: 'mladenovic13',
+    date: Date.now(),
+    title: 'Title 4',
+    description: 'Blog post description',
+    text: 'Blog post text.',
+    images: [],
+  },
+  {
+    id: 5,
+    user: 'mladenovic13',
+    date: Date.now(),
+    title: 'Title 5',
+    description: 'Blog post description',
+    text: 'Blog post text.',
+    images: [],
+  },
+];
+export default data;

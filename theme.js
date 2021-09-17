@@ -6,7 +6,6 @@ const theme = {
     page: {
       width: '100vw',
       m: 0,
-      mx: 'auto',
     },
     card: {
       boxShadow:
