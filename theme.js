@@ -31,6 +31,18 @@ const theme = {
   },
   styles: {
     ...deep.styles,
+    btnDanger: {
+      bg: 'rgb(200,0,0)',
+      ':hover': { bg: 'rgb(100,0,0)' },
+    },
+    btnEdit: {
+      ':hover': { bg: 'highlight' },
+    },
+    checkbox: {
+      width: '25px',
+      height: '25px',
+      mr: '3',
+    },
   },
 };
 export default theme;

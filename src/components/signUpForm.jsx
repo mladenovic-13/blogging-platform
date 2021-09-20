@@ -13,7 +13,7 @@ const SignUpForm = ({ handleSubmit }) => (
     as="form"
     onSubmit={handleSubmit}
     sx={{
-      variant: 'containers.card',
+      variant: 'containers.growCard',
       display: 'flex',
       flexDirection: 'column',
       mt: '40px',

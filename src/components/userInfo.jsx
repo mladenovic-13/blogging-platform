@@ -43,19 +43,13 @@ const UserInfo = () => (
     >
       <Button
         sx={{
-          mr: 4,
-          p: 2,
-          ':hover': { bg: 'highlight' },
+          variant: 'styles.btnEdit',
         }}
       >
         Edit User Info
       </Button>
       <Button
-        sx={{
-          p: 2,
-          bg: 'rgb(200,0,0)',
-          ':hover': { bg: 'rgb(100,0,0)' },
-        }}
+        sx={{ variant: 'styles.btnDanger' }}
       >
         Log Out
       </Button>

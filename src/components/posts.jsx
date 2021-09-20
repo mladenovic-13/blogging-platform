@@ -12,6 +12,7 @@ const Posts = ({ posts }) => (
           key={post.id}
           sx={{
             variant: 'containers.growCard',
+            bg: 'muted',
           }}
         >
           <h2>{post.title}</h2>
@@ -22,7 +23,7 @@ const Posts = ({ posts }) => (
               mt: 4,
               mr: 3,
               p: 2,
-              ':hover': { bg: 'highlight' },
+              variant: 'styles.btnEdit',
             }}
           >
             Edit Post
@@ -30,8 +31,7 @@ const Posts = ({ posts }) => (
           <Button
             sx={{
               p: 2,
-              bg: 'rgb(200,0,0)',
-              ':hover': { bg: 'rgb(100,0,0)' },
+              variant: 'styles.btnDanger',
             }}
           >
             Delete Post
