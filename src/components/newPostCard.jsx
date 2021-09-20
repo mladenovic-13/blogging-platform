@@ -7,15 +7,9 @@ import addImg from '../../public/images/add.svg';
 const NewPostCard = () => (
   <div
     sx={{
-      variant: 'containers.card',
-      display: 'inline-block',
+      variant: 'containers.growCard',
       width: '200px',
       height: '250px',
-      ':hover': {
-        transform: 'scale(1.1)',
-      },
-      textAlign: 'center',
-      transition: 'all .2s ease-in-out',
     }}
   >
     <h1>Add New Blog Post </h1>

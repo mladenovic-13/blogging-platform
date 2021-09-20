@@ -9,9 +9,6 @@ import searchImg from '../../public/images/search.svg';
 const DashboardSidebar = () => (
   <div
     sx={{
-      position: 'absolute',
-      top: '50px',
-      left: 0,
       display: 'flex',
       flexDirection: 'column',
       borderRight: '1px solid highlight',

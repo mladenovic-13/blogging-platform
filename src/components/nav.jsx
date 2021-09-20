@@ -56,7 +56,7 @@ const Nav = () => (
         },
       }}
     >
-      <Link href="/blog-posts">
+      <Link href="/posts">
         <a
           sx={{
             textDecoration: 'none',

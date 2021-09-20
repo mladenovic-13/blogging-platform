@@ -1,8 +1,9 @@
-import SlideShow from '../../src/components/slideShow';
+import Posts from '../../src/components/posts';
+import data from '../../src/data/data';
 
 const Test = () => (
   <div>
-    <SlideShow></SlideShow>
+    <Posts posts={data} />
   </div>
 );
 
